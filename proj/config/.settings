@@ -1,0 +1,16 @@
+{
+    "projectName": "proj",
+    "username": "tw@compliance.com",
+    "id": "a347efb0-7b0e-11e9-8a78-d76a17a59955",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "",
+    "workspace": "C:\\SFDC",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

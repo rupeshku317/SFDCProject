@@ -1,0 +1,64 @@
+34.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:33:34.0 (481329)|USER_INFO|[EXTERNAL]|0051U0000041CSU|tw@compliance.com|Central Standard Time|GMT-05:00
+11:33:34.0 (523697)|EXECUTION_STARTED
+11:33:34.0 (528683)|CODE_UNIT_STARTED|[EXTERNAL]|01p1U00000Pa1pB|UpdateTicketDate
+11:33:34.0 (3806055)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:33:34.0 (7459509)|HEAP_ALLOCATE|[72]|Bytes:3
+11:33:34.0 (7511215)|HEAP_ALLOCATE|[77]|Bytes:152
+11:33:34.0 (7526163)|HEAP_ALLOCATE|[342]|Bytes:408
+11:33:34.0 (7539731)|HEAP_ALLOCATE|[355]|Bytes:408
+11:33:34.0 (7553130)|HEAP_ALLOCATE|[467]|Bytes:48
+11:33:34.0 (7579300)|HEAP_ALLOCATE|[139]|Bytes:6
+11:33:34.0 (7627639)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:11
+11:33:34.0 (7648686)|SYSTEM_METHOD_ENTRY|[15]|BatchableContextImpl.BatchableContextImpl()
+11:33:34.0 (7660381)|STATEMENT_EXECUTE|[15]
+11:33:34.0 (7672916)|SYSTEM_METHOD_EXIT|[15]|BatchableContextImpl
+11:33:34.0 (7681882)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:12
+11:33:34.0 (7688126)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:33:34.0 (7691751)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:33:34.0 (7717521)|VARIABLE_SCOPE_BEGIN|[31]|this|Database.BatchableContextImpl|true|false
+11:33:34.0 (7793233)|VARIABLE_ASSIGNMENT|[31]|this|{}|0x2868c88b
+11:33:34.0 (7803023)|VARIABLE_SCOPE_BEGIN|[31]|jobId|Id|false|false
+11:33:34.0 (7956995)|VARIABLE_ASSIGNMENT|[31]|jobId|"7071U00001AIu6pQAD"
+11:33:34.0 (7964915)|VARIABLE_SCOPE_BEGIN|[31]|childJobId|Id|false|false
+11:33:34.0 (7992923)|VARIABLE_ASSIGNMENT|[31]|childJobId|"7071U00001AIthIQAT"
+11:33:34.0 (13943152)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:72
+11:33:34.169 (169238648)|CUMULATIVE_LIMIT_USAGE
+11:33:34.169 (169238648)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 0
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:33:34.169 (169238648)|CUMULATIVE_LIMIT_USAGE_END
+
+11:33:34.0 (169289176)|CODE_UNIT_FINISHED|UpdateTicketDate
+11:33:34.0 (170295878)|EXECUTION_FINISHED
+T_EXECUTE|[27]
+11:33:35.41 (41659734)|CUMULATIVE_LIMIT_USAGE
+11:33:35.41 (41659734)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 0
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:33:35.41 (41659734)|CUMULATIVE_LIMIT_USAGE_END
+
+11:33:35.1 (41728491)|CODE_UNIT_FINISHED|UpdateTicketDate
+11:33:35.1 (43136556)|EXECUTION_FINISHED

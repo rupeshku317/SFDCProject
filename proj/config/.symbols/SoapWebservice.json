@@ -1,0 +1,27 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "SoapWebservice",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "SoapWebservice",
+    "methods": [],
+    "name": "SoapWebservice",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "SoapWebservice",
+        "references": [],
+        "type": "SoapWebservice"
+    },
+    "variables": []
+}

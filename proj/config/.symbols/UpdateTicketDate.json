@@ -1,0 +1,256 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 5
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "UpdateTicketDate",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "UpdateTicketDate",
+    "innerClasses": [],
+    "interfaces": [
+        "Database.Batchable"
+    ],
+    "key": "UpdateTicketDate",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 9
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "Database.QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 17
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "scope",
+                    "type": "List"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 36
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UpdateTicketDate",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "UpdateTicketDate",
+        "references": [],
+        "type": "UpdateTicketDate"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "Database.BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "tesId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "Database.BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "scope",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "combObjLst",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "testMap",
+            "references": [],
+            "type": "Map<Id,String>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "testMapList",
+            "references": [],
+            "type": "Map<Id,List<SObject>>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "mapSetObject",
+            "references": [],
+            "type": "Map<Id,Set<Complaint__c>>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "mapSetObjectNEw",
+            "references": [],
+            "type": "Map<Id,SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "compObj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "test",
+            "references": [],
+            "type": "Complaint__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "Database.BatchableContext"
+        }
+    ]
+}

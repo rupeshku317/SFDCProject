@@ -1,0 +1,190 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 5
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "ApexCreateTicket",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "ApexCreateTicket",
+    "innerClasses": [],
+    "interfaces": [
+        "Database.Batchable"
+    ],
+    "key": "ApexCreateTicket",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 9
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "Database.QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 15
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "scope",
+                    "type": "List"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 33
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "ApexCreateTicket",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "query",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "ApexCreateTicket",
+        "references": [],
+        "type": "ApexCreateTicket"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "Database.BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "Database.BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "scope",
+            "references": [],
+            "type": "List<SObject>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "ListObj",
+            "references": [],
+            "type": "List<Complaint__c>"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "Complaint__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "Database.BatchableContext"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+34.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,DEBUG;WAVE,INFO;WORKFLOW,INFO
+09:59:03.0 (464205)|USER_INFO|[EXTERNAL]|0051U0000041CSU|tw@compliance.com|Central Standard Time|GMT-05:00
+09:59:03.0 (550730)|EXECUTION_STARTED
+09:59:03.0 (563725)|CODE_UNIT_STARTED|[EXTERNAL]|01p1U00000Pa1pB|UpdateTicketDate
+09:59:03.116 (116624858)|CUMULATIVE_LIMIT_USAGE
+09:59:03.116 (116624858)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 200
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 60000
+  Maximum heap size: 0 out of 12000000
+  Number of callouts: 0 out of 0
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 0
+  Number of queueable jobs added to the queue: 0 out of 1
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:59:03.116 (116624858)|CUMULATIVE_LIMIT_USAGE_END
+
+09:59:03.0 (116738167)|CODE_UNIT_FINISHED|UpdateTicketDate
+09:59:03.0 (118195954)|EXECUTION_FINISHED

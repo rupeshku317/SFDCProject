@@ -1,0 +1,79 @@
+34.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+11:45:46.0 (430422)|USER_INFO|[EXTERNAL]|0051U0000041CSU|tw@compliance.com|Central Standard Time|GMT-05:00
+11:45:46.0 (471628)|EXECUTION_STARTED
+11:45:46.0 (475999)|CODE_UNIT_STARTED|[EXTERNAL]|TRIGGERS
+11:45:46.0 (512657)|CODE_UNIT_STARTED|[EXTERNAL]|01q1U000001MjRi|ComplaintTrigger on Complaint trigger event BeforeUpdate|__sfdc_trigger/ComplaintTrigger
+11:45:46.0 (551735)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:45:46.0 (655913)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:45:46.0 (984462)|HEAP_ALLOCATE|[72]|Bytes:3
+11:45:46.0 (1014768)|HEAP_ALLOCATE|[77]|Bytes:152
+11:45:46.0 (1028337)|HEAP_ALLOCATE|[342]|Bytes:408
+11:45:46.0 (1040234)|HEAP_ALLOCATE|[355]|Bytes:408
+11:45:46.0 (1051457)|HEAP_ALLOCATE|[467]|Bytes:48
+11:45:46.0 (1075485)|HEAP_ALLOCATE|[139]|Bytes:6
+11:45:46.0 (1088440)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:17
+11:45:46.0 (1102228)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:45:46.0 (1109485)|VARIABLE_SCOPE_BEGIN|[1]|this|ComplaintTrigger|true|false
+11:45:46.0 (1146831)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x514c2131
+11:45:46.0 (1203589)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:45:46.0 (1210665)|VARIABLE_SCOPE_BEGIN|[1]|this|ComplaintTrigger|true|false
+11:45:46.0 (1221924)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x514c2131
+11:45:46.0 (1229557)|STATEMENT_EXECUTE|[1]
+11:45:46.0 (1232613)|STATEMENT_EXECUTE|[2]
+11:45:46.0 (1236421)|HEAP_ALLOCATE|[2]|Bytes:10
+11:45:46.0 (1261815)|HEAP_ALLOCATE|[50]|Bytes:5
+11:45:46.0 (1280950)|HEAP_ALLOCATE|[56]|Bytes:5
+11:45:46.0 (1288071)|HEAP_ALLOCATE|[64]|Bytes:7
+11:45:46.0 (1332504)|USER_DEBUG|[2]|DEBUG|reach here
+11:45:46.0 (1355752)|STATEMENT_EXECUTE|[3]
+11:45:46.1 (1359340)|CUMULATIVE_LIMIT_USAGE
+11:45:46.1 (1359340)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:45:46.1 (1359340)|CUMULATIVE_LIMIT_USAGE_END
+
+11:45:46.0 (2585926)|CODE_UNIT_FINISHED|ComplaintTrigger on Complaint trigger event BeforeUpdate|__sfdc_trigger/ComplaintTrigger
+11:45:46.0 (17355850)|CODE_UNIT_STARTED|[EXTERNAL]|01q1U000001MjRi|ComplaintTrigger on Complaint trigger event AfterUpdate|__sfdc_trigger/ComplaintTrigger
+11:45:46.0 (17422678)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:45:46.0 (17470884)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+11:45:46.0 (17555879)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:45:46.0 (17566229)|VARIABLE_SCOPE_BEGIN|[1]|this|ComplaintTrigger|true|false
+11:45:46.0 (17617099)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x2eb781f9
+11:45:46.0 (17656861)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+11:45:46.0 (17663444)|VARIABLE_SCOPE_BEGIN|[1]|this|ComplaintTrigger|true|false
+11:45:46.0 (17674050)|VARIABLE_ASSIGNMENT|[1]|this|{}|0x2eb781f9
+11:45:46.0 (17681126)|STATEMENT_EXECUTE|[1]
+11:45:46.0 (17684291)|STATEMENT_EXECUTE|[2]
+11:45:46.0 (17708100)|USER_DEBUG|[2]|DEBUG|reach here
+11:45:46.0 (17740836)|STATEMENT_EXECUTE|[3]
+11:45:46.17 (17744057)|CUMULATIVE_LIMIT_USAGE
+11:45:46.17 (17744057)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+11:45:46.17 (17744057)|CUMULATIVE_LIMIT_USAGE_END
+
+11:45:46.0 (18707300)|CODE_UNIT_FINISHED|ComplaintTrigger on Complaint trigger event AfterUpdate|__sfdc_trigger/ComplaintTrigger
+11:45:46.0 (31139378)|CODE_UNIT_FINISHED|TRIGGERS
+11:45:46.0 (31154751)|EXECUTION_FINISHED
